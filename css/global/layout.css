@@ -1,0 +1,21 @@
+.wrapper{
+    padding-inline: 20px;
+}
+
+@media (min-width:50em) {
+    .wrapper{
+
+        padding-inline:44px;
+    }
+    
+    
+}
+
+@media (min-width:75em){
+    .wrapper{
+
+        padding-inline: 0;
+    }
+
+
+}

@@ -1,0 +1,18 @@
+.button{
+    font-size: var(--fs-6);
+    line-height: 1.5;
+    font-weight: 700;
+    text-decoration: none;
+    padding:10.5px 24px;
+    border-radius:28px;
+    transition: ease-in-out;
+}
+
+.button.dark{
+    background-color: var(--clr-blue-900);
+    color:var(--clr-white);
+}
+
+.button.dark:hover{
+    background-color: var(--clr-blue-600);
+}
