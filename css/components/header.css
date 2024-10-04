@@ -1,16 +1,12 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-block:16px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 16px;
 }
 
-@media(min-width:50em){
-    .header{
-        padding-block: 24px;
-    }
-}
-
-.header .logo{
-    width: 5rem;
+@media (min-width: 50em) {
+  .header {
+    padding-block: 24px;
+  }
 }
